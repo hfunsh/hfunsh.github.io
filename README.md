@@ -8,8 +8,8 @@ My Github user page is at:
 https://github.com/hfunsh/
 
 My Github Pages repo can be found at:  
-https://github.com/hfunsho/hfunsho.github.io/
+https://github.com/hfunsh/hfunshogithub.io/
 
 And, soon, you can see my customized homepage at:
 
-http://hfunsho.github.io/
+http://hfunsh.github.io/
