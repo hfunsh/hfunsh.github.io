@@ -5,7 +5,7 @@
 This is my first try at github!
 
 My Github user page is at: 
-https://github.com/hfunsho/
+https://github.com/hfunsh/
 
 My Github Pages repo can be found at:  
 https://github.com/hfunsho/hfunsho.github.io/
