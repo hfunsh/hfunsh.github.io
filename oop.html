@@ -1,0 +1,62 @@
+Pillars of OOP
+Encapsulation
+Inheritance 
+Polymorphism
+
+Polymorphism
+* Allows you to write programs that process objects that share the same superclass (either directly or indirectly) as if they were all objects of the same superclass
+* We use a superclass reference to manipulate both superclass and subclass objects
+* This is because the subtype is also a class of the Supertype
+* A subclass is a specialization of the superclass
+* Every instance of a subclass is also an instance of a superclass
+
+For example:
+* Suppose we have an animal superclass which is inherited by subclasses Frog, Fish and Bird
+* Our superclass would contain a move() method
+* This method can be overwritten and implemented differently in all three classes 
+* Relying on each method to do what’s right is the key concept of polymorphism
+* Polymorphism is the OOP concept that makes this possible 
+
+Declared Type vs Actual Type
+Declared Type is the type assigned to the variable at declaration
+Actual Type is the type of the object the variable is referred to at run-time
+
+When an object invokes a method, Java searches it’s superclasses for the correct implementation of the method
+This concept is known as Dynamic Binding
+The method to be invoked is bound at run-time
+
+
+Extensibility
+New classes can be added with little to no modification
+Just create the new class and write the code which initializes an instance of the new class object
+
+Interface
+* Interfaces allow us to assign common functionality to possibly unrelated classes
+* This enables objects of these classes to be processed polymorphically
+* Objects of classes that implement the same interface can respond to all of the interface method calls
+* Polymorphism enables you to program in generalities and let the run time execution worry about the specifics
+* Polymorphism promotes extensibility 
+* It allows you to treat an object of a subclass like an object of the superclass
+* Cannot invoke subclass methods on superclass objects
+* We can however downcast a superclass object to a reference of a subclass 
+
+Examples
+Calling a subclass method using a reference to a superclass instance 
+
+aim a superclass reference to a subclass object - this invokes the subclass methods 
+demonstrates that an object of a subclass can be treated as n object of it’s superclass
+a program can create an array of superclass objects which reference subclass objects
+
+
+when a superclass variable contains a reference to a subclass variable, the subclass method is called
+Dynamic binding - the compiler uses a variable type at runtime to determine which methods to called
+
+Abstract Classes
+Purpose is to create a Superclass which contains common functionality for other classes to inherit
+Cannot be instantiated to create a new object since they are incomplete
+
+
+When we make a polymorphic call, the concept responsible for selecting the correct method is Dynamic Binding
+Means the compiler will search the superclasses for the appropriate version of the method
+An example of that is overriding the toString method in a class
+
